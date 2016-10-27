@@ -1,0 +1,25 @@
+<html>
+<header>
+    <script language="JavaScript">
+        function add()
+        {
+            var q1 = eval(document.getElementById("q1").value);
+            var q2 = eval(document.getElementById("q2").value);
+            var ans = q1 + q2;
+            var aa = document.getElementById("ans");
+            aa.innerHTML = ans;
+
+        }
+    </script>
+</header>
+<body>
+<p>Hi Guy,It's a simple count</p>
+<img src="c02.jpg" height="100dp" width="100dp" align=left  />
+<input type="number" id="q1" name="q1" />
++
+<input type="number" id="q2" name="q2" />
+<input type="button" value="=" onclick="add()" />
+<span id="ans"></span>
+<p> <a href="sec.html">前往下一頁</a> </p>
+</body>
+</html>
